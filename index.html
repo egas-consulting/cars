@@ -13,7 +13,7 @@
         body {
             margin:0;
             padding:0;
-            font-family: sans-serif;
+            font-family:Helvetica, sans-serif;
         }
         a, a:hover, a:visited {
             color: #0071bc;
@@ -49,11 +49,17 @@
             width: 100%;
             position: relative;
             z-index: 5;
+            background-color: #20202000;
         }
+
         #header h1, #header h2, #header p {
             margin: 0;
-            padding: 2vh 2vw;
-            text-align: center;
+            padding: 1vh 4vw;
+            text-align: center; 
+
+        }
+        #header h1 {
+            padding-top:10vh;
         }
         #footer {
             width: 100%;
@@ -95,7 +101,7 @@
         }
         .dark {
             color: #fafafa;
-            background-color: #444;
+            background-color: #141414b4;
         }
         .step {
             padding-bottom: 50vh;
@@ -109,7 +115,7 @@
         .step div {
             padding:  25px 50px;
             line-height: 25px;
-            font-size: 13px;
+            font-size: 1rem;
         }
 
         .step img {
@@ -183,19 +189,19 @@ var header = document.createElement('div');
 
 if (config.title) {
     var titleText = document.createElement('h1');
-    titleText.innerText = config.title;
+    titleText.innerHTML = config.title;
     header.appendChild(titleText);
 }
 
 if (config.subtitle) {
     var subtitleText = document.createElement('h2');
-    subtitleText.innerText = config.subtitle;
+    subtitleText.innerHTML = config.subtitle;
     header.appendChild(subtitleText);
 }
 
 if (config.byline) {
     var bylineText = document.createElement('p');
-    bylineText.innerText = config.byline;
+    bylineText.innerHTML = config.byline;
     header.appendChild(bylineText);
 }
 
@@ -211,7 +217,7 @@ config.chapters.forEach((record, idx) => {
 
     if (record.title) {
         var title = document.createElement('h3');
-        title.innerText = record.title;
+        title.innerHTML = record.title;
         chapter.appendChild(title);
     }
 
