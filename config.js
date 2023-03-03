@@ -13,7 +13,7 @@ var config = {
     title: '<span style="font-family:sans-serif; background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-size:1.2rem" >Industria auto în 2022 </span>',
     subtitle: '<span style=" font-family: playfair display, serif; color:#ffffff; font-size:3rem" >Cât de competitivă este România pe piața producției de mașini</span>',
     byline: '<a href="https://panorama.ro/author/edit/" target="_blank">Edit Gyenge</a> <p> <img src="./scroll.png"> </p> <p> scroll </p>',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: '<br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template. <p> <img src="./scroll.png"> </p> <p> scroll </p>',
     chapters: [
         {
             id: 'slug-style-id',
