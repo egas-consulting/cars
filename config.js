@@ -11,7 +11,7 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
     title: '<span style="font-family:sans-serif; background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-size:1.2rem" >Mașinile învârt lumea</span>',
-    subtitle: '<span style=" font-family: playfair display, serif; color:#ffffff; font-size:3rem" >Cum stă România la volanul unui gigant cu motorul subturat</span>',
+    subtitle: '<span style=" font-family: playfair display, serif; color:#ffffff; font-size:2.5rem" >INTERACTIV | Cum își ține România un gigant cu motorul subturat: industria auto </span>',
     byline: '<a href="https://panorama.ro/author/edit/" target="_blank">Edit Gyenge</a> <p> <img src="./scroll.png"> </p> <p> scroll </p>',
     footer: '<br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template. <p> <img src="./scroll.png"> </p> <p> scroll </p>',
     chapters: [
