@@ -10,8 +10,8 @@ var config = {
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: '<span style="font-family:sans-serif; background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-size:1.2rem" >Industria auto în 2022 </span>',
-    subtitle: '<span style=" font-family: playfair display, serif; color:#ffffff; font-size:3rem" >Cât de competitivă este România pe piața producției de mașini</span>',
+    title: '<span style="font-family:sans-serif; background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-size:1.2rem" >Mașinile învârt lumea</span>',
+    subtitle: '<span style=" font-family: playfair display, serif; color:#ffffff; font-size:3rem" >Cum stă România la volanul unui gigant cu motorul subturat</span>',
     byline: '<a href="https://panorama.ro/author/edit/" target="_blank">Edit Gyenge</a> <p> <img src="./scroll.png"> </p> <p> scroll </p>',
     footer: '<br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template. <p> <img src="./scroll.png"> </p> <p> scroll </p>',
     chapters: [
@@ -51,7 +51,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Înainte de pandemie, în anul 2018, în lume se produceau <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> peste 71 de milioane</span> de autoturisme. Odată cu pandemia, în 2020, sectorul auto global s-a confruntat cu o serie de perturbări ale căror efecte se resimt și azi. Am văzut, pe de-o parte, linii de producție sistate, din cauza lockdown-urilor, după care sectorul nu a putut face față cererii în revenire, pentru că a apărut o criză globală de semiconductori pentru automobile. Această lipsă de cipuri a dus la tăierea a aproximativ  <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> 11,3 milioane de vehicule </span> din planurile de producție la nivel mondial. Este cea mai mare scădere a producției din ultimul deceniu. Panorama a explicat <a href=“https://panorama.ro/criza-cipuri-semiconductori-auto-european-chips-act/”>aici </a> impactul crizei cipurilor asupra producției de mașini. ',
+            description: 'Înainte de pandemie, în anul 2018, în lume se produceau <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> peste 71 de milioane</span> de autoturisme. Odată cu pandemia, în 2020, sectorul auto global s-a confruntat cu o serie de perturbări, ale căror efecte se resimt și azi. Am văzut, pe de-o parte, linii de producție sistate, din cauza lockdown-urilor, după care sectorul nu a putut face față cererii în revenire, pentru că a apărut o criză globală de semiconductori pentru automobile. Această lipsă de cipuri a dus la tăierea a aproximativ  <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> 11,3 milioane de vehicule </span> din planurile de producție la nivel mondial. Este cea mai mare scădere a producției din ultimul deceniu. Panorama a explicat <a href=“https://panorama.ro/criza-cipuri-semiconductori-auto-european-chips-act/”>aici </a> impactul crizei cipurilor asupra producției de mașini. ',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 2,
@@ -76,7 +76,7 @@ var config = {
             hidden: false,
             title: 'De ce este importantă industria auto',
             image: '',
-            description: 'Pentru a produce 60 de milioane de vehicule</a> e nevoie de aproximativ 9 milioane de oameni, care sunt angajați direct în fabricarea vehiculelor și a pieselor care intră în ele. E o forță de muncă ce reprezintă peste 5% din totalul angajării în producție din lume. <p> Mai mult: se estimează că fiecare loc de muncă direct din industria auto susține indirect cel puțin alte 5 locuri de muncă într-o comunitate. Asta se traduce în peste 50 de milioane de locuri de muncă datorate industriei auto, potrivit informațiilor <a href=“https://www.oica.net/category/economic-contributions/”>OICA (International Organization of Motor Vehicle Manufacturers)</a>. Mulți oameni sunt angajați în producție și servicii conexe. <p> Automobilele sunt construite folosind bunuri din multe alte industrii, cum ar fi oțel, fier, aluminiu, sticlă, materiale plastice, covoare, textile, cauciuc, semiconductorii despre care vorbeam anterior și multe altele. Aceste cifre ne dau măsura puterii acestui sector în economia globală.<p> <img src="./productie masini.png"> </p>',
+            description: 'Pentru a produce 60 de milioane de vehicule, e nevoie de aproximativ 9 milioane de oameni, care sunt angajați direct în fabricarea vehiculelor și a pieselor care intră în ele. E o forță de muncă ce reprezintă peste 5% din totalul angajării în producție din lume. <p> Mai mult: se estimează că fiecare loc de muncă direct din industria auto susține indirect cel puțin alte 5 locuri de muncă într-o comunitate. Asta se traduce în peste 50 de milioane de locuri de muncă datorate industriei auto, potrivit informațiilor <a href=“https://www.oica.net/category/economic-contributions/”>OICA (International Organization of Motor Vehicle Manufacturers)</a>. Mulți oameni sunt angajați în producție și servicii conexe. <p> Automobilele sunt construite folosind bunuri din multe alte industrii, cum ar fi oțel, fier, aluminiu, sticlă, materiale plastice, covoare, textile, cauciuc, semiconductorii despre care vorbeam anterior și multe altele. Aceste cifre ne dau măsura puterii acestui sector în economia globală.<p> <img src="./productie masini.png"> </p>',
             location: {
                 center: [103.58648, 33.95494],
                 zoom: 5,
@@ -150,7 +150,7 @@ var config = {
             id: 'seventh-chapter',
             alignment: 'fully',
             hidden: false,
-            title: '20% din producția europeană de autoturisme se face în Germania.',
+            title: '20% din producția europeană de autoturisme se face în Germania',
             image: '',
             description: 'Din 129 de fabrici care produc autoturisme la nivelul Europei, 22 se află în Germania. 12 astfel de fabrici sunt în Franța și 8 în Spania.  <iframe src="https://flo.uri.sh/visualisation/12873229/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/12873229/?utm_source=embed&utm_campaign=visualisation/12873229" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
             location: {
@@ -171,7 +171,7 @@ var config = {
             hidden: false,
             title: 'România',
             image: '',
-            description: '<div style="width:65px; height:43px; padding:5px;"> <img src="./romania.png"></div> Industria auto contribuie cu <a href=“https://www.agerpres.ro/social/2022/07/05/video-ministrul-economiei-industria-de-automotive-reprezinta-aproximativ-28-din-pib-ul-romaniei--945283”>28% la PIB-ul României </a>, ceea ce o transformă într-o industrie strategică. <p> În anul 2021, România se afla pe locul 7 din 16 state producătoare de autoturisme din Uniunea Europeană, cu peste 420 de mii de mașini produse. Comparat cu producția din Germania, greul industriei auto europene, în țara noastră s-a produs a șaptea parte din ce a ieșit din fabricile auto germane. Nu e deloc puțin, dacă ținem cont și de puterea relativă a producției din cele două țări sau de dimensiunea industriilor auto din fiecare dintre ele. ',
+            description: '<div style="width:65px; height:43px; padding:5px;"> <img src="./romania.png"></div> Industria auto contribuie cu <a href=“https://www.agerpres.ro/social/2022/07/05/video-ministrul-economiei-industria-de-automotive-reprezinta-aproximativ-28-din-pib-ul-romaniei--945283”>28% la PIB-ul României</a>, ceea ce o transformă într-o industrie strategică. <p> În anul 2021, România se afla pe locul 7 din 16 state producătoare de autoturisme din Uniunea Europeană, cu peste 420 de mii de mașini produse. Comparat cu producția din Germania, greul industriei auto europene, în țara noastră s-a produs a șaptea parte din ce a ieșit din fabricile auto germane. Nu e deloc puțin, dacă ținem cont și de puterea relativă a producției din cele două țări sau de dimensiunea industriilor auto din fiecare dintre ele. ',
             location: {
                 center: [25.25430, 46.02025],
                 zoom: 6.48,
