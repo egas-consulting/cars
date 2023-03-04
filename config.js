@@ -51,7 +51,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Înainte de pandemie, în anul 2018, în lume se produceau <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> peste 71 de milioane</span> de autoturisme. Odată cu pandemia, în 2020, sectorul auto global s-a confruntat cu o serie de perturbări, ale căror efecte se resimt și azi. Am văzut, pe de-o parte, linii de producție sistate, din cauza lockdown-urilor, după care sectorul nu a putut face față cererii în revenire, pentru că a apărut o criză globală de semiconductori pentru automobile. Această lipsă de cipuri a dus la tăierea a aproximativ  <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> 11,3 milioane de vehicule </span> din planurile de producție la nivel mondial. Este cea mai mare scădere a producției din ultimul deceniu. Panorama a explicat <a href=“https://panorama.ro/criza-cipuri-semiconductori-auto-european-chips-act/”>aici </a> impactul crizei cipurilor asupra producției de mașini. ',
+            description: 'Înainte de pandemie, în anul 2018, în lume se produceau <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> peste 71 de milioane</span> de autoturisme. Odată cu pandemia, în 2020, sectorul auto global s-a confruntat cu o serie de perturbări, ale căror efecte se resimt și azi. Am văzut, pe de-o parte, linii de producție sistate, din cauza lockdown-urilor, după care sectorul nu a putut face față cererii în revenire, pentru că a apărut o criză globală de semiconductori pentru automobile.',
             location: {
                 center: [12.02595, 49.90885],
                 zoom: 2,
@@ -74,9 +74,36 @@ var config = {
             id: 'third-identifier',
             alignment: 'left',
             hidden: false,
+            title: '',
+            image: '',
+            description: 'Această lipsă de cipuri a dus la tăierea a aproximativ  <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> 11,3 milioane de vehicule </span> din planurile de producție la nivel mondial. Este cea mai mare scădere a producției din ultimul deceniu. Panorama a explicat <a href=“https://panorama.ro/criza-cipuri-semiconductori-auto-european-chips-act/”>aici </a> impactul crizei cipurilor asupra producției de mașini. ',
+            location: {
+                center: [12.02595, 49.90885],
+                zoom: 2,
+                pitch: 60,
+                bearing: 0,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+
+    
+        {
+            id: 'fourth-identifier',
+            alignment: 'right',
+            hidden: false,
             title: 'De ce este importantă industria auto',
             image: '',
-            description: 'Pentru a produce 60 de milioane de vehicule, e nevoie de aproximativ 9 milioane de oameni, care sunt angajați direct în fabricarea vehiculelor și a pieselor care intră în ele. E o forță de muncă ce reprezintă peste 5% din totalul angajării în producție din lume. <p> Mai mult: se estimează că fiecare loc de muncă direct din industria auto susține indirect cel puțin alte 5 locuri de muncă într-o comunitate. Asta se traduce în peste 50 de milioane de locuri de muncă datorate industriei auto, potrivit informațiilor <a href=“https://www.oica.net/category/economic-contributions/”>OICA (International Organization of Motor Vehicle Manufacturers)</a>. Mulți oameni sunt angajați în producție și servicii conexe. <p> Automobilele sunt construite folosind bunuri din multe alte industrii, cum ar fi oțel, fier, aluminiu, sticlă, materiale plastice, covoare, textile, cauciuc, semiconductorii despre care vorbeam anterior și multe altele. Aceste cifre ne dau măsura puterii acestui sector în economia globală.<p> <img src="./productie masini.png"> </p>',
+            description: 'Pentru a produce 60 de milioane de vehicule, e nevoie de aproximativ 9 milioane de oameni, care sunt angajați direct în fabricarea vehiculelor și a pieselor care intră în ele. E o forță de muncă ce reprezintă peste 5% din totalul angajării în producție din lume.',
             location: {
                 center: [103.58648, 33.95494],
                 zoom: 5,
@@ -90,7 +117,45 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'fourth-chapter',
+            id: 'fifth-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Mai mult: se estimează că fiecare loc de muncă direct din industria auto susține indirect cel puțin alte 5 locuri de muncă într-o comunitate. Asta se traduce în peste 50 de milioane de locuri de muncă datorate industriei auto, potrivit informațiilor <a href=“https://www.oica.net/category/economic-contributions/”>OICA (International Organization of Motor Vehicle Manufacturers)</a>. Mulți oameni sunt angajați în producție și servicii conexe.',
+            location: {
+                center: [103.58648, 33.95494],
+                zoom: 5,
+                pitch: 8.01,
+                bearing: 0.00
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'sixth-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Automobilele sunt construite folosind bunuri din multe alte industrii, cum ar fi oțel, fier, aluminiu, sticlă, materiale plastice, covoare, textile, cauciuc, semiconductorii despre care vorbeam anterior și multe altele. Aceste cifre ne dau măsura puterii acestui sector în economia globală.<p> <img src="./productie masini.png"> </p>',
+            location: {
+                center: [103.58648, 33.95494],
+                zoom: 5,
+                pitch: 8.01,
+                bearing: 0.00
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'seventh-chapter',
             alignment: 'fully',
             hidden: false,
             title: 'Cine ține industria auto pe roți',
@@ -109,12 +174,12 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'fifth-chapter',
+            id: 'eight-chapter',
             alignment: 'fully',
             hidden: false,
             title: 'Japonia, pe locul 2',
             image: '',
-            description: '<div style="width:65px; height:43px; padding:5px;"> <img src="./japonia.png"></div> Japonia, pe de altă parte, se clasează pe locul al doilea la producția de mașini, cu peste <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> 6.6 milioane </span> de autoturisme produse Înainte de pandemie, Toyota concura acerb cu Volkswagen la numărul de autovehicule produse. <iframe src="https://flo.uri.sh/visualisation/12873896/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe> <div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/12873896/?utm_source=embed&utm_campaign=visualisation/12873896" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div> ',
+            description: '<div style="width:65px; height:43px; padding:5px;"> <img src="./japonia.png"></div> Japonia, pe de altă parte, se clasează pe locul al doilea la producția de mașini, cu peste <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> 6.6 milioane </span> de autoturisme produse Înainte de pandemie, Toyota concura acerb cu Volkswagen la numărul de autovehicule produse.',
             location: {
                 center: [138.81167, 36.48381],
                 zoom: 4,
@@ -128,7 +193,26 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'sixth-chapter',
+            id: 'ninth-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<iframe src="https://flo.uri.sh/visualisation/12873896/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe> <div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/12873896/?utm_source=embed&utm_campaign=visualisation/12873896" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            location: {
+                center: [138.81167, 36.48381],
+                zoom: 4,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'tenth-chapter',
             alignment: 'fully',
             hidden: false,
             title: 'Situația la nivelul UE',
@@ -147,12 +231,12 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'seventh-chapter',
+            id: 'eleventh-chapter',
             alignment: 'fully',
             hidden: false,
             title: '20% din producția europeană de autoturisme se face în Germania',
             image: '',
-            description: 'Din 129 de fabrici care produc autoturisme la nivelul Europei, 22 se află în Germania. 12 astfel de fabrici sunt în Franța și 8 în Spania.  <iframe src="https://flo.uri.sh/visualisation/12873229/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/12873229/?utm_source=embed&utm_campaign=visualisation/12873229" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            description: 'Din 129 de fabrici care produc autoturisme la nivelul Europei, 22 se află în Germania. 12 astfel de fabrici sunt în Franța și 8 în Spania.',
             location: {
                 center: [18.72648, 47.05194],
                 zoom: 4.82,
@@ -166,7 +250,26 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'eight-chapter',
+            id: 'twelvth-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<iframe src="https://flo.uri.sh/visualisation/12873229/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/12873229/?utm_source=embed&utm_campaign=visualisation/12873229" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            location: {
+                center: [18.72648, 47.05194],
+                zoom: 4.82,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'thirteenth-chapter',
             alignment: 'fully',
             hidden: false,
             title: 'România',
@@ -185,7 +288,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'ninth-chapter',
+            id: 'forteenth-chapter',
             alignment: 'fully',
             hidden: false,
             title: 'Anul 2022, record pentru producția auto în România',
@@ -204,7 +307,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'tenth-chapter',
+            id: 'fifteenth-chapter',
             alignment: 'fully',
             hidden: false,
             title: '',
@@ -223,7 +326,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'eleventh-chapter',
+            id: 'sixteenth-chapter',
             alignment: 'fully',
             hidden: false,
             title: 'Care sunt factorii care fac o industrie auto puternică și cum a evoluat România',
@@ -241,13 +344,14 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
+        
         {
-            id: 'twelvth-chapter',
+            id: 'seventeenth-chapter',
             alignment: 'fully',
             hidden: false,
             title: '',
             image: './row-new-cars-port.png',
-            description: ' Sunt state cu o cultură puternică a inovației și tehnologiei, ceea ce a ajutat industriile lor de producție auto să rămână competitive în ceea ce privește designul, procesele de producție și tehnologie. Sunt, de asemenea, țări care își asumă susținerea acestui sector prin stimulente, subvenții și politici care încurajează investițiile și creșterea. <p> Pe urmă, datele ne arată că cei mai importanți producători de mașini s-au dezvoltat în state care au o istorie lungă de producție de automobile și au dezvoltat o bază de producție puternică de-a lungul anilor, cu lanțuri de aprovizionare stabile. Infrastructura, după cum știm și în cazul României, e importantă, dar nu e suficientă, dacă ea nu e dublată și de o forță de muncă calificată, inclusiv cea de care e nevoie pentru a facilita operarea și extinderea afacerilor producătorilor de mașini. ',
+            description: 'Sunt state cu o cultură puternică a inovației și tehnologiei, ceea ce a ajutat industriile lor de producție auto să rămână competitive în ceea ce privește designul, procesele de producție și tehnologie. Sunt, de asemenea, țări care își asumă susținerea acestui sector prin stimulente, subvenții și politici care încurajează investițiile și creșterea.',
             location: {
                 center: [25.43132, 45.92487],
                 zoom: 5.87,
@@ -260,5 +364,235 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
+        {
+            id: 'eighteenth-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Pe urmă, datele ne arată că cei mai importanți producători de mașini s-au dezvoltat în state care au o istorie lungă de producție de automobile și au dezvoltat o bază de producție puternică de-a lungul anilor, cu lanțuri de aprovizionare stabile. Infrastructura, după cum știm și în cazul României, e importantă, dar nu e suficientă, dacă ea nu e dublată și de o forță de muncă calificată, inclusiv cea de care e nevoie pentru a facilita operarea și extinderea afacerilor producătorilor de mașini. ',
+            location: {
+                center: [25.43132, 45.92487],
+                zoom: 5.87,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'nineteenth-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: 'Cât de competitivă este România',
+            image: '',
+            description: 'Pentru a înțelege cât de competitivă este România, am luat indicatorii de mai sus și i-am reprezentat în contextul european. Prima concluzie e că România a făcut pași majori în dezvoltarea industriei auto, iar în acest moment înregistrează creșteri exponențiale pentru mai mulți indicatori importanți.',
+            location: {
+                center: [25.43132, 45.92487],
+                zoom: 5.87,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'twenty-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: 'Piața de desfacere',
+            image: '',
+            description: 'Deși România este ultima țară din UE la numărul de mașini/1.000 de locuitori, are acum cea mai mare creștere din ultimul deceniu. În doar 10 ani, numărul românilor care dețin mașini s-a dublat, pe când media europeană de creștere în ultimii 10 ani este discretă.',
+            location: {
+                center: [25.43132, 45.92487],
+                zoom: 5.87,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'twentyone-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<iframe src="https://flo.uri.sh/visualisation/12872911/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/12872911/?utm_source=embed&utm_campaign=visualisation/12872911" target="top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            location: {
+                center: [25.43132, 45.92487],
+                zoom: 5.87,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'twentytwo-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: 'Forță de muncă pregătită. România, competitivă la numărul de ingineri și oameni de știință',
+            image: '',
+            description: 'Industria auto este, după cum am arătat, unul dintre cele mai importante și dinamice sectoare ale economiei globale. E și un sector care continuă să evolueze rapid. <p> De la vehicule electrice și hibride, până la sisteme de conducere autonomă, progresele tehnologiei auto transformă modul în care ne gândim la transport. Pe măsură ce noile tehnologii apar și preferințele consumatorilor se schimbă, nevoia de oameni de știință și ingineri calificați pentru industria auto devine din ce în ce mai importantă.',
+            location: {
+                center: [25.43132, 45.92487],
+                zoom: 5.87,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+
+        {
+            id: 'twentythree-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Un alt domeniu cheie în  care industria auto are nevoie de oameni foarte bine pregătiți este cel al compoziției materialelor folosite pe linia de producție. Aliajele ușoare, compozitele și polimerii sunt esențiali pentru reducerea greutății și îmbunătățirea performanței vehiculelor moderne. <p> La acest capitol, România nu stă deloc rău. Ocupă locul 8 în UE la numărul de ingineri și oameni de știință.',
+            location: {
+                center: [25.43132, 45.92487],
+                zoom: 5.87,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'twentyfour-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<iframe src="https://flo.uri.sh/visualisation/12891814/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/12891814/?utm_source=embed&utm_campaign=visualisation/12891814" target="_top" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            location: {
+                center: [25.43132, 45.92487],
+                zoom: 5.87,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'twentyfive-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: 'Inovație',
+            image: '',
+            description: 'Potrivit European Innovation Scoreboard, România este un inovator emergent. E o etichetă care sună mai bine decât e cazul. România e în continuare pe ultimele locuri în Uniunea Europeană la capitolul inovație. Nici măcar nu batem pasul pe loc, ci facem chiar pași înapoi. Potrivit studiului, performanța României a scăzut în 2016, 2017, 2018 și 2022. În 2022, România a înregistrat același nivel de performanță în sectorul inovației ca în 2015. <p> Privit în detaliu, cea mai mare scădere din 2022 a fost cu cheltuielile pentru inovare/angajat și în sectorul IMM -urilor considerate inovatoare. Aici, explicația poate sta în incertitudinea economică, pe fondul căreia multe companii au decis să taie din bugete.',
+            location: {
+                center: [25.43132, 45.92487],
+                zoom: 5.87,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'twentysix-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<iframe src="https://flo.uri.sh/visualisation/12931185/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation"></iframe><div style="width:100%!;margin-top:4px!important;text-align:right!important;"><a class="flourish-credit" href="https://public.flourish.studio/visualisation/12931185/?utm_source=embed&utm_campaign=visualisation/12931185" target="_to" style="text-decoration:none!important"><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg" style="width:105px!important;height:16px!important;border:none!important;margin:0!important;"> </a></div>',
+            location: {
+                center: [25.43132, 45.92487],
+                zoom: 5.87,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'twentyseven-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: 'Infrastructură',
+            image: '',
+            description: 'Calitatea infrastructurii unei țări, unde sunt incluse rețelele de transport, furnizarea de energie și telecomunicațiile, poate afecta eficiența și competitivitatea industriei de fabricație a autovehiculelor. O infrastructură bine dezvoltată poate ajuta la reducerea costurilor de transport, la îmbunătățirea logisticii și la atragerea de noi investiții. Graficul de mai jos arată numărul de kilometri de autostrăzi și drumuri europene raportat la suprafața țării.',
+            location: {
+                center: [25.43132, 45.92487],
+                zoom: 5.87,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'twentyeight-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: '',
+            image: '',
+            description: "<iframe src='https://flo.uri.sh/visualisation/12892128/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/12892128/?utm_source=embed&utm_campaign=visualisation/12892128' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>",
+            location: {
+                center: [25.43132, 45.92487],
+                zoom: 5.87,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'twentynine-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: '',
+            image: '',
+            description: "Odată ce tragem linie, avantajul competitiv al României în industria auto provine în primul rând din forța de muncă calificată. Ne ajută și geografia, pentru că România e poziționată strategic pentru a permite accesul convenabil la piețele majore atât din Europa, cât și din Orientul Mijlociu și Africa. Și deși lipsa infrastructurii e un handicap serios, care trebuie remediat în anii care vin, statul nu poate ignora celelalte criterii de care e nevoie pentru a crește puterea industriei auto românești la nivel european. Și trebuie să se asigure că nu ne pierdem atu-ul pe care îl avem de pe urma forței de muncă calificate. Chiar dacă, până acum, investitorii din acest sector au trecut cu vederea unele puncte slabe, competiția devine tot mai puternică la nivel european și regional, iar România va trebui să demonstreze că poate ține pasul.",
+            location: {
+                center: [25.43132, 45.92487],
+                zoom: 5.87,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+
     ]
 };
