@@ -46,7 +46,7 @@ var config = {
             ]
         },
         {
-            id: 'second-identifier',
+            id: 'two-identifier',
             alignment: 'right',
             hidden: false,
             title: '',
@@ -71,7 +71,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'third-identifier',
+            id: 'three-identifier',
             alignment: 'left',
             hidden: false,
             title: '',
@@ -98,7 +98,7 @@ var config = {
 
     
         {
-            id: 'fourth-identifier',
+            id: 'four-identifier',
             alignment: 'right',
             hidden: false,
             title: 'De ce este importantă industria auto',
@@ -117,7 +117,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'fifth-identifier',
+            id: 'five-identifier',
             alignment: 'left',
             hidden: false,
             title: '',
@@ -136,7 +136,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'sixth-identifier',
+            id: 'six-identifier',
             alignment: 'right',
             hidden: false,
             title: '',
@@ -155,7 +155,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'seventh-chapter',
+            id: 'seven-chapter',
             alignment: 'right',
             hidden: false,
             title: 'Cine ține industria auto pe roți',
@@ -193,7 +193,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'ninth-chapter',
+            id: 'nine-chapter',
             alignment: 'fully',
             hidden: false,
             title: '',
@@ -212,7 +212,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'tenth-chapter',
+            id: 'ten-chapter',
             alignment: 'fully',
             hidden: false,
             title: 'Situația la nivelul UE',
@@ -231,7 +231,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'eleventh-chapter',
+            id: 'eleven-chapter',
             alignment: 'fully',
             hidden: false,
             title: '20% din producția europeană de autoturisme se face în Germania',
@@ -250,7 +250,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'twelvth-chapter',
+            id: 'twelve-chapter',
             alignment: 'fully',
             hidden: false,
             title: '',
@@ -269,7 +269,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'thirteenth-chapter',
+            id: 'thirteen-chapter',
             alignment: 'fully',
             hidden: false,
             title: 'România',
@@ -288,7 +288,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'forteenth-chapter',
+            id: 'forteen-chapter',
             alignment: 'fully',
             hidden: false,
             title: 'Anul 2022, record pentru producția auto în România',
@@ -307,7 +307,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'fifteenth-chapter',
+            id: 'fifteen-chapter',
             alignment: 'fully',
             hidden: false,
             title: '',
@@ -326,7 +326,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'sixteenth-chapter',
+            id: 'sixteen-chapter',
             alignment: 'fully',
             hidden: false,
             title: 'Care sunt factorii care fac o industrie auto puternică și cum a evoluat România',
@@ -346,7 +346,7 @@ var config = {
         },
         
         {
-            id: 'seventeenth-chapter',
+            id: 'seventeen-chapter',
             alignment: 'left',
             hidden: false,
             title: '',
@@ -365,7 +365,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'eighteenth-chapter',
+            id: 'eighteen-chapter',
             alignment: 'fully',
             hidden: false,
             title: '',
@@ -384,7 +384,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'nineteenth-chapter',
+            id: 'nineteen-chapter',
             alignment: 'fully',
             hidden: false,
             title: 'Cât de competitivă este România',
@@ -504,7 +504,7 @@ var config = {
             hidden: false,
             title: 'Inovație',
             image: '',
-            description: 'Potrivit European Innovation Scoreboard, România este un inovator emergent. E o etichetă care sună mai bine decât e cazul. România e în continuare pe ultimele locuri în Uniunea Europeană la capitolul inovație. Nici măcar nu batem pasul pe loc, ci facem chiar pași înapoi. Potrivit studiului, performanța României a scăzut în 2016, 2017, 2018 și 2022. În 2022, România a înregistrat același nivel de performanță în sectorul inovației ca în 2015. <p> Privit în detaliu, cea mai mare scădere din 2022 a fost cu cheltuielile pentru inovare/angajat și în sectorul IMM -urilor considerate inovatoare. Aici, explicația poate sta în incertitudinea economică, pe fondul căreia multe companii au decis să taie din bugete.',
+            description: 'Potrivit <a href="https://research-and-innovation.ec.europa.eu/knowledge-publications-tools-and-data/publications/all-publications/european-innovation-scoreboard-2022_en" target="_blank">European Innovation Scoreboard</a>, România este un inovator emergent. E o etichetă care sună mai bine decât e cazul. România e în continuare pe ultimele locuri în Uniunea Europeană la capitolul inovație. Nici măcar nu batem pasul pe loc, ci facem chiar pași înapoi. Potrivit studiului, performanța României a scăzut în 2016, 2017, 2018 și 2022. În 2022, România a înregistrat același nivel de performanță în sectorul inovației ca în 2015. <p> Privit în detaliu, cea mai mare scădere din 2022 a fost cu cheltuielile pentru inovare/angajat și în sectorul IMM -urilor considerate inovatoare. Aici, explicația poate sta în incertitudinea economică, pe fondul căreia multe companii au decis să taie din bugete.',
             location: {
                 center: [21.34923, 45.80305],
                 zoom: 7,
@@ -580,7 +580,26 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: "Odată ce tragem linie, avantajul competitiv al României în industria auto provine în primul rând din forța de muncă calificată. Ne ajută și geografia, pentru că România e poziționată strategic pentru a permite accesul convenabil la piețele majore atât din Europa, cât și din Orientul Mijlociu și Africa. Și deși lipsa infrastructurii e un handicap serios, care trebuie remediat în anii care vin, statul nu poate ignora celelalte criterii de care e nevoie pentru a crește puterea industriei auto românești la nivel european. Și trebuie să se asigure că nu ne pierdem atu-ul pe care îl avem de pe urma forței de muncă calificate. Chiar dacă, până acum, investitorii din acest sector au trecut cu vederea unele puncte slabe, competiția devine tot mai puternică la nivel european și regional, iar România va trebui să demonstreze că poate ține pasul.",
+            description: "Odată ce tragem linie, avantajul competitiv al României în industria auto provine în primul rând din forța de muncă calificată. Ne ajută și geografia, pentru că România e poziționată strategic pentru a permite accesul convenabil la piețele majore atât din Europa, cât și din Orientul Mijlociu și Africa.",
+            location: {
+                center: [24.68581, 45.99089],
+                zoom: 5.2,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'jumpTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'thirty-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: '',
+            image: '',
+            description: "Și deși lipsa infrastructurii e un handicap serios, care trebuie remediat în anii care vin, statul nu poate ignora celelalte criterii de care e nevoie pentru a crește puterea industriei auto românești la nivel european. Și trebuie să se asigure că nu ne pierdem atu-ul pe care îl avem de pe urma forței de muncă calificate. Chiar dacă, până acum, investitorii din acest sector au trecut cu vederea unele puncte slabe, competiția devine tot mai puternică la nivel european și regional, iar România va trebui să demonstreze că poate ține pasul.",
             location: {
                 center: [24.68581, 45.99089],
                 zoom: 5.2,
