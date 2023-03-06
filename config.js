@@ -76,7 +76,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Această lipsă de cipuri <a href="https://www.statista.com/topics/1487/automotive-industry/#:~:text=This%20chip%20shortage%20led%20to,units%20from%20production%20in%202022." target="_blank">a dus la tăierea a aproximativ</a>  <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> 11,3 milioane de vehicule </span> din planurile de producție la nivel mondial. Este cea mai mare scădere a producției din ultimul deceniu. Panorama a explicat <a href=“https://panorama.ro/criza-cipuri-semiconductori-auto-european-chips-act/”>aici </a> impactul crizei cipurilor asupra producției de mașini. ',
+            description: 'Această lipsă de cipuri <a href="https://www.statista.com/topics/1487/automotive-industry/#:~:text=This%20chip%20shortage%20led%20to,units%20from%20production%20in%202022." target="_blank">a dus la tăierea a aproximativ</a> <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> 11,3 milioane de vehicule </span> din planurile de producție la nivel mondial. Este cea mai mare scădere a producției din ultimul deceniu. Panorama a explicat  <a href="https://panorama.ro/criza-cipuri-semiconductori-auto-european-chips-act/" target="_blank">aici</a>.',
             location: {
                 center: [19.26346, 48.03732],
                 zoom: 3,
@@ -542,7 +542,7 @@ var config = {
             hidden: false,
             title: 'Infrastructură',
             image: '',
-            description: 'Calitatea infrastructurii unei țări, unde sunt incluse rețelele de transport, furnizarea de energie și telecomunicațiile, poate afecta eficiența și competitivitatea industriei de fabricație a autovehiculelor. O infrastructură bine dezvoltată poate ajuta la reducerea costurilor de transport, la îmbunătățirea logisticii și la atragerea de noi investiții. Graficul de mai jos arată numărul de kilometri de autostrăzi și drumuri europene raportat la suprafața țării.',
+            description: 'Calitatea infrastructurii unei țări, unde sunt incluse rețelele de transport, furnizarea de energie și telecomunicațiile, poate afecta eficiența și competitivitatea industriei de fabricație a autovehiculelor. O infrastructură bine dezvoltată poate ajuta la reducerea costurilor de transport, la îmbunătățirea logisticii și la atragerea de noi investiții. Graficul de mai jos arată numărul de kilometri de autostrăzi raportat la suprafața țării.',
             location: {
                 center: [25.86354, 44.46562],
                 zoom: 14,
