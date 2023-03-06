@@ -122,7 +122,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Mai mult: se estimează că fiecare loc de muncă direct din industria auto susține indirect cel puțin alte 5 locuri de muncă într-o comunitate. Asta se traduce în peste 50 de milioane de locuri de muncă datorate industriei auto, potrivit informațiilor <a href=“https://www.oica.net/category/economic-contributions/”>OICA (International Organization of Motor Vehicle Manufacturers)</a>. Mulți oameni sunt angajați în producție și servicii conexe.',
+            description: 'Mai mult: se estimează că fiecare loc de muncă direct din industria auto susține indirect cel puțin alte 5 locuri de muncă într-o comunitate. Asta se traduce în peste 50 de milioane de locuri de muncă datorate industriei auto, potrivit <a href="https://www.oica.net/category/economic-contributions/" target="_blank">informațiilor OICA (International Organization of Motor Vehicle Manufacturers)</a>. Mulți oameni sunt angajați în producție și servicii conexe.',
             location: {
                 center: [19.26346, 48.03732],
                 zoom: 5,
@@ -217,7 +217,7 @@ var config = {
             hidden: false,
             title: 'Situația la nivelul UE',
             image: '',
-            description: '<div style="width:65px; height:43px; padding:5px;"> <img src="./ue.png"></div> Prin comparație cu cele 21 de milioane de autoturisme produse de China, în UE s-au făcut <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> peste 10 milioane </span> de autoturisme în 2021. Industria auto e o forță imposibil de neglijat în Europa. 22 de state din Europa produc automobile, dintre care 16 sunt din Uniunea Europeană. <p> Doar la nivelul Uniunii Europene, <a href=“https://single-market-economy.ec.europa.eu/sectors/automotive-industry_en”>2,6 milioane de persoane</a> lucrează în producția directă de autovehicule. Ei reprezentă 8,5 % din totalul angajaților din producție din UE.',
+            description: '<div style="width:65px; height:43px; padding:5px;"> <img src="./ue.png"></div> Prin comparație cu cele 21 de milioane de autoturisme produse de China, în UE s-au făcut <span style="background-color: #C027B9; padding: 0.5vh; border-radius: 10px; color:#ffffff; font-weight: bold;"> peste 10 milioane </span> de autoturisme în 2021. Industria auto e o forță imposibil de neglijat în Europa. 22 de state din Europa produc automobile, dintre care 16 sunt din Uniunea Europeană. <p> Doar la nivelul Uniunii Europene,  <a href="https://single-market-economy.ec.europa.eu/sectors/automotive-industry_en" target="_blank">2,6 milioane de persoane</a> lucrează în producția directă de autovehicule. Ei reprezentă 8,5 % din totalul angajaților din producție din UE.',
             location: {
                 center: [14.75384, 51.86013],
                 zoom: 3.95,
@@ -274,7 +274,7 @@ var config = {
             hidden: false,
             title: 'România',
             image: '',
-            description: '<div style="width:65px; height:43px; padding:5px;"> <img src="./romania.png"></div> Industria auto contribuie cu <a href=“https://www.agerpres.ro/social/2022/07/05/video-ministrul-economiei-industria-de-automotive-reprezinta-aproximativ-28-din-pib-ul-romaniei--945283”>28% la PIB-ul României</a>, ceea ce o transformă într-o industrie strategică. <p> În anul 2021, România se afla pe locul 7 din 16 state producătoare de autoturisme din Uniunea Europeană, cu peste 420 de mii de mașini produse. Comparat cu producția din Germania, greul industriei auto europene, în țara noastră s-a produs a șaptea parte din ce a ieșit din fabricile auto germane. Nu e deloc puțin, dacă ținem cont și de puterea relativă a producției din cele două țări sau de dimensiunea industriilor auto din fiecare dintre ele. ',
+            description: '<div style="width:65px; height:43px; padding:5px;"> <img src="./romania.png"></div> Industria auto contribuie cu  <a href="https://www.agerpres.ro/social/2022/07/05/video-ministrul-economiei-industria-de-automotive-reprezinta-aproximativ-28-din-pib-ul-romaniei--945283" target="_blank">28% la PIB-ul României</a>, ceea ce o transformă într-o industrie strategică. <p> În anul 2021, România se afla pe locul 7 din 16 state producătoare de autoturisme din Uniunea Europeană, cu peste 420 de mii de mașini produse. Comparat cu producția din Germania, greul industriei auto europene, în țara noastră s-a produs a șaptea parte din ce a ieșit din fabricile auto germane. Nu e deloc puțin, dacă ținem cont și de puterea relativă a producției din cele două țări sau de dimensiunea industriilor auto din fiecare dintre ele. ',
             location: {
                 center: [25.25430, 46.02025],
                 zoom: 6.48,
@@ -293,7 +293,7 @@ var config = {
             hidden: false,
             title: 'Anul 2022, record pentru producția auto în România',
             image: '',
-            description: 'Iar lucrurile par să fie pe un trend ascendent pentru sectorul auto românesc. În 2022, am văzut <a href=“https:https://acarom.ro/blog/productie-vehicule-in-romania-total-2022/”>o creștere de puțin peste 20% a producției de autoturisme </a> în România față de anul 2021. Producția a atins, anul trecut, volumul de aproape 510 de mii de unități. 314 mii au fost produse de Dacia, în fabrica de la Mioveni.',
+            description: 'Iar lucrurile par să fie pe un trend ascendent pentru sectorul auto românesc. În 2022, am văzut  <a href="https:https://acarom.ro/blog/productie-vehicule-in-romania-total-2022/" target="_blank">o creștere de puțin peste 20% a producției de autoturisme </a>. în România față de anul 2021. Producția a atins, anul trecut, volumul de aproape 510 de mii de unități. 314 mii au fost produse de Dacia, în fabrica de la Mioveni.',
             location: {
                 center: [24.92764, 44.94960],
                 zoom: 13,
